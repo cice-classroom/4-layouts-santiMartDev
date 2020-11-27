@@ -1,0 +1,36 @@
+.txtButton {
+  min-height: 40vh;
+  padding: 5rem 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.txtButton__title {
+  padding: 2rem 0;
+  font-family: var(--title-font);
+  font-weight:500;
+  font-size: var(--l);
+  text-align: center;
+}
+
+.txtButton__txt {
+  padding: 2rem 0;
+  width: var(--content-width);
+  font-family: var(--body-font);
+  font-weight: 300;
+  font-size: var(--m);
+  text-align: center;
+}
+
+.txtButton__button {
+  margin: 2rem 0;
+  background-color: var(--secondary-color);
+  font-family: var(--title-font);
+  font-weight: 500;
+  border: none;
+  padding: 1.5rem 7rem;
+  border-radius: 25px;
+}

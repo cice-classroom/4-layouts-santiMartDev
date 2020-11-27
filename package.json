@@ -4,7 +4,7 @@
   "description": "4-layouts",
   "main": "index.js",
   "scripts": {
-    "start": "browser-sync start --server src --files src",
+    "start": "browser-sync start --server --files",
     "format": "prettier --write ."
   },
   "repository": {
