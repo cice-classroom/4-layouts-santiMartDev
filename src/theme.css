@@ -1,0 +1,51 @@
+:root {
+  --xs: 0.25rem;
+  --s: 0.5rem;
+  --m: 1.2rem;
+  --l: 2rem;
+  --xl: 3.8rem;
+
+  --body-size: 1.6rem;
+  --title-size: 2.2rem;
+
+  --body-font: 'Roboto', sans-serif;
+  --title-font: 'Roboto Mono', monospace;
+
+  --primary-color: #e3e9f4;
+  --on-primary-color: #abc8ff;
+
+  --secondary-color: #f5efe4;
+  --on-secondary-color: #a89a7b;
+
+  --surface-color: white;
+  --on-surface-color: #253238;
+
+  --content-width: 38rem;
+}
+
+@media (min-width: 415px) {
+  :root {
+    --xs: 0.25rem;
+    --s: 0.5rem;
+    --m: 1.5rem;
+    --l: 3rem;
+    --xl: 6rem;
+
+    --body-size: 16px;
+    --title-size: 22px;
+
+    --body-font: 'Roboto', sans-serif;
+    --title-font: 'Roboto Mono', monospace;
+
+    --primary-color: #e3e9f4;
+    --on-primary-color: #abc8ff;
+
+    --secondary-color: #f5efe4;
+    --on-secondary-color: #a89a7b;
+
+    --surface-color: white;
+    --on-surface-color: #253238;
+
+    --content-width: 100rem;
+  }
+}

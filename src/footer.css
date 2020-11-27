@@ -1,0 +1,31 @@
+.footer {
+  display: flex;
+  min-height: 2rem;
+  background-color: lightgrey;
+  font-size: var(--m);
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.footer__copy {
+  flex: 1;
+  padding: 0.5rem 0;
+}
+
+.footer__links {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__links a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (min-width: 415px) {
+  .footer {
+    min-height: 3rem;
+    padding: 0 10rem;
+  }
+}
