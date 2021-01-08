@@ -1,0 +1,41 @@
+.txtIcons {
+  min-height: 50vh;
+  background-color: var(--secondary-color);
+}
+
+.txtIcons__title {
+  font-family: var(--title-font);
+  font-weight:500;
+  font-size: var(--l);
+  text-align: center;
+  padding: 4rem 0 2rem 0
+}
+
+.txtIcons__txt {
+  width: var(--content-width);
+  margin: 0 auto;
+  font-family: var(--body-font);
+  font-weight: 300;
+  font-size: var(--m);
+  text-align: center;
+}
+
+.txtIcons__flex {
+  display: flex;
+  width: var(--content-width);
+  margin: 0 auto;
+  padding: 2rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.txtIcons__img {
+  width: 5rem;
+}
+
+@media (min-width: 415px) {
+  .txtIcons__img {
+    width: 15rem
+  }
+}
+
